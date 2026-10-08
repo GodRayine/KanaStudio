@@ -6,3 +6,8 @@ release/
 research/
 qa/
 *.spec
+android/build/
+android/local.properties
+*.jks
+*.keystore
+*.password

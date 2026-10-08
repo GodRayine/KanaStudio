@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.godrayine.kanastudio.tests">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="36" />
+    <application android:label="Kana Studio device tests" android:allowBackup="false" />
+    <instrumentation android:name="com.godrayine.kanastudio.SmokeInstrumentation" android:targetPackage="com.godrayine.kanastudio" />
+</manifest>
